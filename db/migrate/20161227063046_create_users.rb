@@ -13,5 +13,6 @@ class CreateUsers < ActiveRecord::Migration[5.1]
     add_index :users, :email
     add_index :users, :last_name
     add_index :users, :first_name
+    # nickname, country, and date_of_birth do not have indexes on purpose.
   end
 end
