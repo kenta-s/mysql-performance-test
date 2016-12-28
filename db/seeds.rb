@@ -27,9 +27,9 @@ users = DB.from(:users)
   puts "Done index: #{i}"
 end
 
+#  require 'benchmark'
 #  Benchmark.bm(15) do |r|
 #    r.report 'ActiveRecord' do
-#      require 'benchmark'
 #      100_000.times do
 #        User.create!(
 #            email: Faker::Internet.email,
